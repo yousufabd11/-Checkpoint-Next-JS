@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css';
 
 export async function getServerSideProps() {
   // Simulate fetching data from an API
-  const data = { name: 'Yousuf Ahmed', description: 'A passionate MERN stack developer' };
+  const data = { name: 'Yousuf', description: 'A passionate MERN stack developer' };
 
   return {
     props: {
@@ -21,7 +21,7 @@ export default function Home({ data }) {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to {data.name}'s Portfolio</h1>
         <p className={styles.description}>{data.description}</p>
-        <Image src="/profile.png" alt="Profile Picture" width={200} height={200} />
+        <Image src="/profile.jpg" alt="Profile Picture" width={300} height={300} />
       </main>
     </div>
   );

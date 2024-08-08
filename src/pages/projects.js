@@ -1,5 +1,5 @@
 // src/pages/projects.js
-import styles from '../styles/Projects.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Projects() {
   return (

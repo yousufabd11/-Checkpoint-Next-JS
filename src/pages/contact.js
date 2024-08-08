@@ -1,5 +1,5 @@
 // src/pages/contact.js
-import styles from '../styles/Contact.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Contact() {
   return (
@@ -13,3 +13,4 @@ export default function Contact() {
     </div>
   );
 }
+
